@@ -1,0 +1,63 @@
+@font-face {
+  font-family: manrope;
+  src: url(Manrope.ttf);
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 5%;
+  max-width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.contain > h1 {
+  text-transform: uppercase;
+  color: Black;
+  position: absolute;
+  left:50%;
+  bottom: -5%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+}
+
+.contain {
+  width: 80vw;
+  height: 100vh;
+  background-image: url(./images/edited.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  border-bottom: 1px solid white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  justify-content: center;
+}
+
+p {
+  justify-content: left;
+  display: flex;
+  width: 50%;
+  padding: 4% 4%;
+}
+
+.contained p {
+  display: grid;
+  float: left;
+  width: 50%;
+}
+
+.about1{
+  width: 100%;
+  gap: 1em;
+}
