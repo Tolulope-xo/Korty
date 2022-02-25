@@ -55,6 +55,10 @@ body {
   overflow-x: hidden;
 }
 
+.hero{
+  max-width: 100%;
+}
+
 .side-margin {
   margin: 30px 30px;
 }
@@ -97,6 +101,7 @@ h2 {
   width: 800px;
   gap: 30px;
   padding-top: 20px;
+  margin: auto;
 }
 
 .content1 {
