@@ -75,7 +75,7 @@ body {
   text-align: center;
   justify-content: center;
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
   right: 10%;
   font-size: 60px;
   color: black;
@@ -95,8 +95,7 @@ h2 {
 .contained {
   display: flex;
   width: 800px;
-  gap: 50px;
-  margin: auto;
+  gap: 30px;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
