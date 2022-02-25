@@ -93,14 +93,13 @@ h2 {
 .contained {
   display: flex;
   width: 800px;
-  gap: 100px;
+  gap: 30px;
   padding-top: 20px;
   margin: auto;
 }
 
 .content1 {
   width: 400px;
-  text-align: justify;
 }
 
 .content2 {
