@@ -96,12 +96,10 @@ h2 {
 
 .contained {
   display: flex;
-  max-width: 800px;
+  width: 800px;
   gap: 100px;
   padding-top: 20px;
   margin: auto;
-  justify-content: center;
-  align-items: center;
 }
 
 .content1 {
