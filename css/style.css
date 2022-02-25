@@ -5,22 +5,21 @@
 
 @media (max-width: 700px) {
   .main-box {
-      background-image: url('../css/images/edited.jpg');
+    background-image: url("../css/images/edited.jpg");
   }
 }
 
 @media (max-width: 1024px) {
   .main-box {
-      background-image: url('../css/images/edited.jpg');
+    background-image: url("../css/images/edited.jpg");
   }
 }
 
 @media (max-width: 1025px) {
   .main-box {
-      background-image: url('../css/images/edited.jpg');
+    background-image: url("../css/images/edited.jpg");
   }
 }
-
 
 @keyframes example {
   0% {
@@ -55,7 +54,7 @@ body {
   overflow-x: hidden;
 }
 
-.hero{
+.hero {
   max-width: 100%;
 }
 
@@ -98,16 +97,14 @@ h2 {
 .contained {
   display: flex;
   width: 800px;
-  gap: 40px;
+  gap: 100px;
   padding-top: 20px;
-  position: relative;
-margin: auto;
+  margin: auto;
 }
 
 .content1 {
   width: 400px;
   text-align: justify;
-
 }
 
 .content2 {
