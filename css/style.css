@@ -113,7 +113,6 @@ margin: auto;
 .content2 {
   width: 400px;
   display: grid;
-  border-top: 1px solid black;
 }
 
 .leftTop {
