@@ -75,23 +75,22 @@ h2 {
 .contained {
   display: flex;
   width: 800px;
-  gap: 50px;
   padding-top: 20px;
   margin: auto;
-  padding: 40px 50px ;
-  flex-direction: row;
-  justify-content: space-between;
+  padding: 40px 50px;
 }
 
 .content1 {
   width: 400px;
   text-align: justify;
+  padding-right: 30px;
 }
 
 .content2 {
   width: 400px;
   display: grid;
   grid-template-columns: repeat(4, 2fr);
+  padding-left: 30px;
 }
 
 .class {
