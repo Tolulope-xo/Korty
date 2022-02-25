@@ -99,18 +99,22 @@ h2 {
 .contained {
   display: flex;
   width: 800px;
-  gap: 30px;
+  gap: 40px;
   padding-top: 20px;
   margin: auto;
+  padding-left: 50px;
+  padding-right: 20px;
 }
 
 .content1 {
+  float: left;
   width: 400px;
   position: relative;
   text-align: justify;
 }
 
 .content2 {
+  float: right;
   width: 400px;
   display: grid;
   border-top: 1px solid black;
